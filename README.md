@@ -12,7 +12,7 @@ Answer-Fun 是一個 Minecraft 客戶端模組 提供一些有趣的指令和功
 *   **圖形化設定介面**：
     *   您可以透過按下 `O` 鍵（預設）來開啟設定介面。
     *   在設定介面中，您可以輕鬆啟用或停用各種指令功能。
-*   **MiniHUD 整合**：如果偵測到已安裝 [MiniHUD](https://www.curseforge.com/minecraft/mc-mods/minihud) 模組，`=tps` 指令將能提供更精確的伺服器 TPS 和 MSPT 資訊。
+*   **MiniHUD 整合**：如果偵測到已安裝 [MiniHUD](https://github.com/maruohon/minihud/) 模組，`=tps` 指令將能提供更精確的伺服器 TPS 和 MSPT 資訊。
 *   **名稱解析**：能夠從公開聊天、私訊等多種格式中準確地解析出玩家名稱，確保指令能夠正確地對目標玩家生效。
 
 ## 如何使用
