@@ -41,6 +41,8 @@ Answer-Fun 是一個 Minecraft 客戶端模組 提供一些有趣的指令和功
 *   `=yan`等待您自行探索!
 *   `=masaki`等待您自行探索!
 
+* 已經編譯好的檔案
+* https://drive.google.com/drive/folders/102XPl-Dr7poQ3dpsjuKkC24OJ6KLgCy8?usp=sharing
 ---
-
+此文檔是chatgpt寫的
 希望這份說明對您有幫助！
