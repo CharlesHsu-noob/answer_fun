@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "newmod",
+  "version": "${version}",
+  "name": "New Mod Only",
+  "description": "A minimal mod that only responds to =new command.",
+  "authors": ["you"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.newmod.NewOnlyMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}",
+    "fabric-api": "*"
+  },
+  "mixins": []
+}
