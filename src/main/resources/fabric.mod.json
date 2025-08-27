@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "answer-fun",
+	"version": "${version}",
+	"name": "Answer Fun",
+	"description": "Answer Fun mod for Minecraft",
+	"authors": [
+		"charleszxxlaker"
+	],
+	"contact": {},
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.example.Answerfun"
+		]
+	},
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "1.21.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"minihud": "*",
+		"malilib": "*",
+		"another-mod": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"parent": "answer-fun"
+		}
+	},
+	"logging": {
+		"level": "INFO",
+		"filters": {
+			"stdout": "INFO"
+		}
+	}
+}
