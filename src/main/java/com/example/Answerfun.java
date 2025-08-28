@@ -316,7 +316,11 @@ public class Answerfun implements ClientModInitializer {
 
         // 確保 UserCommand 有回傳值，即使是 "無法解析名稱"
         if (response != null) {
-            client.player.networkHandler.sendChatMessage(response);
+            if (response.contains("/msg")) {
+                client.player.networkHandler.sendChatCommand(response.startsWith("/") ? response.substring(1) : response);
+            } else {
+                client.player.networkHandler.sendChatMessage(response);
+            }
         }
     }
 }
